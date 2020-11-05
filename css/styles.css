@@ -1,0 +1,166 @@
+/*Color Palette
+#FF5757; Red
+#cc4646; Dark Red
+*/
+* {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*Navigation*/
+.bg-light {
+    background-color: #FF5757!important;
+}
+a.navbar-brand {
+    font-size: 30px;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.nav-svg {
+    margin-top: 50px;
+    margin-bottom: -80px;
+}
+
+/*Landing*/
+h1 {
+    color: #FF5757;
+    font-size: 80px;
+}
+.landing-info {
+    padding-left: 100px;
+}
+.sub-header {
+    font-size: 30px;
+}
+.btn-landing {
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    color: #FF5757;
+}
+.btn-landing:hover {
+    background-color: #FF5757;
+    color: white;
+    box-shadow: 3px 3px 0px #EEEEEE;
+}
+.img-landing {
+    width: 100%;
+}
+.landing-svg {
+    margin-bottom: -10px;
+}
+
+/*Portfolio*/
+div#portfolio.container-fluid {
+    background-color: #FF5757;
+}
+.sect-head {
+    text-align: center;
+    color: #cc4646;
+}
+.port-img {
+    width: 100%;
+}
+.port-desc {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.port-test {
+    font-style: italic;
+}
+.btn-visit {
+    border: none;
+    background-color: #cc4646;;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.a-visit {
+    color: black;
+}
+.a-visit:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*Skills*/
+.sect-head2 {
+    text-align: center;
+    color: #FF5757;
+}
+.skill-img {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+.skill-desc {
+    color: #FF5757;
+    text-align: center;
+    font-size: 30px;
+}
+.img-cert {
+    width: 100%;
+}
+.about {
+    color: #FF5757;
+    font-size: 40px;
+    text-align: justify;
+}
+
+/*Contact*/
+#contact {
+    background-color: #FF5757;
+    margin-top: -10px;
+    padding-bottom: 100px;
+}
+button.btn.btn-primary {
+    background-color: #cc4646;
+    border: none;
+    color: black;
+}
+button.btn.btn-primary:hover {
+    color: white;
+}
+button.btn.btn-primary:focus {
+    background-color: #cc4646!important;
+    border: none!important;
+}
+
+/*Footer*/
+footer {
+    background-color: #cc4646;
+    text-align: center;
+}
+i.fab {
+    font-size: 50px;
+    margin: 20px;
+    color: #FF5757;
+}
+i.fab:hover {
+    color: white;
+}
+
+
+/*Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .landing-info {
+        padding: 0px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    p.about {
+        font-size: 20px;
+    }
+    p.port-desc {
+        margin: 0px;
+    }
+}
+
